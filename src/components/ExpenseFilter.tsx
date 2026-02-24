@@ -1,5 +1,5 @@
 import React from "react";
-import { categories } from "../App";
+import categories from "../categories";
 
 // To notify App.tsx when a user selects a filter.
 interface Props {

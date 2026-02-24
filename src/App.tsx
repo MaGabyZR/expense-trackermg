@@ -2,9 +2,7 @@ import { useState } from "react";
 import ExpenseList from "./components/ExpenseList";
 import ExpenseFilter from "./components/ExpenseFilter";
 import ExpenseForm from "./components/ExpenseForm";
-
-//Have all categories in a single place and export them to reuse them in multiple components.
-export const categories = ["Groceries", "Utilities", "Entertainment"];
+import categories from "./categories";
 
 function App() {
   //Implemet filtering.
